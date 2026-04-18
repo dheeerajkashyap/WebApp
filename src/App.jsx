@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop.jsx';
@@ -11,7 +10,7 @@ import { Toaster } from '@/components/ui/sonner';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/WebApp/">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
