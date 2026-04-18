@@ -15,7 +15,7 @@ export default defineConfig({
   },
   // Change '' to '/your-repo-name/' if deploying to GitHub Pages project site
   // e.g. base: '/my-website/'
-  base: '/',
+  base: '/WebApp//',
   build: {
     outDir: 'dist',
   },
